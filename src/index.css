@@ -1,0 +1,106 @@
+:root {
+  --bg-primary: #0a0e14;
+  --bg-card: #121820;
+  --bg-panel: #1a2330;
+  --text-main: #f0f4f8;
+  --text-muted: #8b9bb4;
+  --border-color: #243247;
+  --status-working: #10b981;
+  --status-broken: #ef4444;
+  --status-unsure: #f59e0b;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.map-container {
+  width: 100%;
+  height: calc(100vh - 72px);
+  position: relative;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge-working {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--status-working);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-broken {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--status-broken);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.badge-unsure {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--status-unsure);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 16px;
+}
+
+.modal-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 2px solid white;
+}
