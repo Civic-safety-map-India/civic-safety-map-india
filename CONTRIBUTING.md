@@ -39,7 +39,7 @@ Before writing code or opening a PR, understand these rules. **Pull requests vio
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/shikharthakur2404/civic-safety-map.git
+git clone https://github.com/Civic-safety-map-India/civic-safety-map.git
 cd civic-safety-map
 
 # 2. Install dependencies
