@@ -16,6 +16,8 @@ Meanwhile, citizens only see cameras being actively cited for traffic challans, 
 
 **Civic Safety Map does not attempt to fix policing.** It makes the physical **infrastructure gap** visible and verifiable by crowdsourcing camera operational status onto open maps.
 
+> **Landscape Context:** Check out the [India GovTech & Anti-Corruption Project Index](GOVTECH_INDEX.md) for research on existing civic tools and why we specifically target open surveillance nodes over blocked FIR records.
+
 ---
 
 ## System Architecture
