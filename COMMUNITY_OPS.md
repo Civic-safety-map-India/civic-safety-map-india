@@ -20,7 +20,7 @@ git init
 git add .
 git commit -m "feat: initial civic safety map MVP scaffold (Module A)"
 git branch -M main
-git remote add origin https://github.com/Civic-safety-map-India/civic-safety-map.git
+git remote add origin https://github.com/Civic-safety-map-India/civic-safety-map-india.git
 git push -u origin main
 ```
 

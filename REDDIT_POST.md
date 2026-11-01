@@ -37,6 +37,6 @@ I’m a master’s student dealing with exams and a job hunt, so I cannot build 
 
 If you know React, TypeScript, Leaflet/GIS, or Python/Supabase backend, or want to help add bounding boxes for Bengaluru, Mumbai, Pune, or Chandigarh — PRs and feedback are very welcome:
 
-👉 **GitHub:** `https://github.com/Civic-safety-map-India/civic-safety-map`
+👉 **GitHub:** `https://github.com/Civic-safety-map-India/civic-safety-map-india`
 
 Let me know what you think of the concept or if you’ve run into similar mapping efforts in your city.
