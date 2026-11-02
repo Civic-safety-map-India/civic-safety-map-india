@@ -97,6 +97,21 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for pull request guidelines, coding stan
 
 ---
 
+## 🇮🇳 Looking to Build Other Civic Tech?
+
+This repository also hosts the **[India GovTech & Anti-Corruption Project Index](GOVTECH_INDEX.md)** — a researched directory of existing tools, stale projects needing revival, and unbuilt public-interest software gaps in India:
+
+* **Existing Projects Needing PRs:** Expand `ForThePeople.in` across 770+ districts, build a consumer frontend for `ramSeraph/opendata`, revive stale ADR election tools.
+* **Validated Unbuilt Projects (Ready for Developers to Start):**
+  1. **RTI Outcome Tracker:** Monitor delays, appeals, and department resolution rates (not just initial filing).
+  2. **TenderWatch:** Public anomaly detection dashboard for municipal & state procurement tenders.
+  3. **CourtAlerts:** Automated personal case hearing alerts on top of NJDG / `bharat-courts` data.
+  4. **SchemeRadar:** Middleman/agent fraud and exploitation detector for welfare schemes.
+
+👉 **Read the full landscape & claim a project:** [GOVTECH_INDEX.md](GOVTECH_INDEX.md)
+
+---
+
 ## License
 * Software: [MIT](LICENSE)
 * Geodata: Open Database License (ODbL) © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
